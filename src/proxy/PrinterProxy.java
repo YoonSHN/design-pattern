@@ -30,7 +30,7 @@ public class PrinterProxy implements Printable{
     @Override
     public void print(String string){
         realize();
-        real.print(string);
+        real.print(string);  //프록시 객체가 실제 객체에 위임하는 위치
     }
     //본인 생성
     private synchronized void realize(){

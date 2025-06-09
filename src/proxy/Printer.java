@@ -34,9 +34,8 @@ public class Printer implements Printable{
             try{
                 Thread.sleep(1000);
             }catch(InterruptedException e){
-                System.out.print(".");
             }
-            System.out.println("완료");
-        }
+            System.out.print(".");
+        }System.out.println("완료");
     }
 }
